@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM MASTERS - Personal Trainer AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <div id="master-selection">
+        <div class="logo-container">
+            <i class="fas fa-dumbbell logo-icon"></i>
+            <h1 class="main-title">GYM MASTERS</h1>
+            <div class="subtitle">PERSONAL TRAINER AI</div>
+        </div>
+        
+        <div class="hero-section">
+            <h2 class="hero-title">ESCOLHA SEU MESTRE</h2>
+            <p class="hero-description">
+                <i class="fas fa-fire"></i>
+                Sua jornada épica de transformação começa agora!
+                <br>Qual lenda irá te guiar rumo ao seu melhor shape?
+                <i class="fas fa-fire"></i>
+            </p>
+        </div>
+        
+        <div class="masters-container">
+            <div class="master-card" data-master="goku">
+                <div class="card-glow goku-glow"></div>
+                <div class="master-avatar">
+                    <img src="https://pa1.aminoapps.com/6481/aa4533bd25e33cdd5ac323ca0bddc4619afffb12_hq.gif" alt="Goku">
+                    <div class="power-level">MAIS DE 8000!</div>
+                </div>
+                <h3>GOKU</h3>
+                <div class="master-title">O Herói Inspirador</div>
+                <p>Treinos explosivos, superação constante e energia infinita. Prepare-se para quebrar seus limites!</p>
+                <div class="specialties">
+                    <span class="specialty">Motivação</span>
+                    <span class="specialty">Superação</span>
+                    <span class="specialty">Energia</span>
+                </div>
+            </div>
+            
+            <div class="master-card" data-master="cariani">
+                <div class="card-glow cariani-glow"></div>
+                <div class="master-avatar">
+                    <img src="https://www.esportelandia.com.br/app/uploads/2023/01/Snapinsta.app_1080_321180480_202035945720833_6476333677620660380_n-e1673548093228.jpg" alt="Renato Cariani">
+                    <div class="power-level">MONSTRO!</div>
+                </div>
+                <h3>CARIANI</h3>
+                <div class="master-title">O Estrategista Científico</div>
+                <p>Disciplina militar, ciência aplicada e resultados garantidos. Sem enrolação, só resultados!</p>
+                <div class="specialties">
+                    <span class="specialty">Ciência</span>
+                    <span class="specialty">Disciplina</span>
+                    <span class="specialty">Técnica</span>
+                </div>
+            </div>
+            
+            <div class="master-card" data-master="spongebob">
+                <div class="master-avatar">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJgURB5Y8lqFLwg97z2EKXYL1jJQzsDydUmGK5Ji2YElMHdqK8-itaMmPn7Ljgejxzskf8Mv1akHebZnq_8pQdGt9ulyhi6S9L7SLTvs016f9PhcpmJqAMidoDbrUHhhA2KNtUnQkg8zrp/s400/201311_bob-sponja-to-ciclao.gif" alt="Bob Esponja">
+                    <div class="power-level">ESTOU PRONTO!</div>
+                </div>
+                <h3>BOB ESPONJA</h3>
+                <div class="master-title">O Mestre da Diversão</div>
+                <p>Treinos divertidos e cheios de energia. Transforme a academia na sua Fenda do Biquíni!</p>
+                <div class="specialties">
+                    <span class="specialty">Diversão</span>
+                    <span class="specialty">Energia</span>
+                    <span class="specialty">Cardio</span>
+                </div>
+            </div>
+            
+            <div class="master-card" data-master="zoro">
+                <div class="card-glow zoro-glow"></div>
+                <div class="master-avatar">
+                    <img src="https://i.pinimg.com/736x/5b/2f/76/5b2f766a3e60b5e66c89ec29e3fd989c.jpg" alt="Roronoa Zoro">
+                    <div class="power-level">BUSHIDO!</div>
+                </div>
+                <h3>ZORO</h3>
+                <div class="master-title">O Espadachim Disciplinado</div>
+                <p>Disciplina absoluta, superação da dor e treinos implacáveis. O caminho do guerreiro!</p>
+                <div class="specialties">
+                    <span class="specialty">Disciplina</span>
+                    <span class="specialty">Resistência</span>
+                    <span class="specialty">Força</span>
+                </div>
+            </div>
+            
+            <div class="master-card" data-master="rocklee">
+                <div class="card-glow rocklee-glow"></div>
+                <div class="master-avatar">
+                    <img src="https://pa1.aminoapps.com/6377/98a44025060db615b06b52e12c0f7bed6acec07e_hq.gif" alt="Rock Lee">
+                    <div class="power-level">JUVENTUDE!</div>
+                </div>
+                <h3>ROCK LEE</h3>
+                <div class="master-title">A Chama da Juventude</div>
+                <p>Trabalho duro, energia contagiante e entusiasmo sem limites. A juventude nunca para!</p>
+                <div class="specialties">
+                    <span class="specialty">Energia</span>
+                    <span class="specialty">Dedicação</span>
+                    <span class="specialty">Cardio</span>
+                </div>
+            </div>
+            
+            <div class="master-card" data-master="levi">
+                <div class="card-glow levi-glow"></div>
+                <div class="master-avatar">
+                    <img src="https://rollingstone.com.br/media/_versions/levi-ackerman-attack-on-titan-melhores-momentos-foto-reproducao_widelg.jpg" alt="Levi Ackerman">
+                    <div class="power-level">PERFEITO!</div>
+                </div>
+                <h3>LEVI</h3>
+                <div class="master-title">O Capitão Exigente</div>
+                <p>Perfeição em cada movimento, eficiência máxima e execução impecável. Sem desculpas!</p>
+                <div class="specialties">
+                    <span class="specialty">Perfeição</span>
+                    <span class="specialty">Técnica</span>
+                    <span class="specialty">Agilidade</span>
+                </div>
+            </div>
+            
+            <div class="master-card" data-master="arnold">
+                <div class="card-glow arnold-glow"></div>
+                <div class="master-avatar">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLRdocgVtjT8wyUp8izqIxkQQg1_nMswLr6A&s" alt="Arnold Schwarzenegger">
+                    <div class="power-level">PUMP IT!</div>
+                </div>
+                <h3>ARNOLD</h3>
+                <div class="master-title">O Exterminador da Preguiça</div>
+                <p>Pump legendário, motivação icônica e treinos pesados. I'll be back... stronger!</p>
+                <div class="specialties">
+                    <span class="specialty">Pump</span>
+                    <span class="specialty">Massa</span>
+                    <span class="specialty">Lenda</span>
+                </div>
+            </div>
+            <div class="master-card" data-master="batman">
+                <div class="card-glow batman-glow"></div>
+                <div class="master-avatar">
+                    <img src="https://i.pinimg.com/736x/a7/43/12/a74312aea1b501055b35b21b5d9371c2.jpg" alt="Batman">
+                    <div class="power-level">PREPARADO!</div>
+                </div>
+                <h3>BATMAN</h3>
+                <div class="master-title">O Cavaleiro das Trevas</div>
+                <p>Disciplina tática e superação da dor. O treino é uma missão, não uma opção.</p>
+                <div class="specialties">
+                    <span class="specialty">Tática</span>
+                    <span class="specialty">Disciplina</span>
+                    <span class="specialty">Vontade</span>
+                </div>
+            </div>
+            
+            <div class="master-card" data-master="wolverine">
+                <div class="card-glow wolverine-glow"></div>
+                <div class="master-avatar">
+                    <img src="https://w7.pngwing.com/pngs/814/788/png-transparent-wolverine-weapon-x-professor-x-x-23-wolverine-comics-superhero-comic-book-thumbnail.png" alt="Wolverine">
+                    <div class="power-level">BERSERKER!</div>
+                </div>
+                <h3>WOLVERINE</h3>
+                <div class="master-title">O Animal Indomável</div>
+                <p>Intensidade animal, força bruta e regeneração. Sem desculpas, só treino pesado.</p>
+                <div class="specialties">
+                    <span class="specialty">Intensidade</span>
+                    <span class="specialty">Força</span>
+                    <span class="specialty">Regeneração</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="chat-container" style="display:none;">
+        <div class="chat-header">
+            <div class="chat-title-section">
+                <i class="fas fa-dumbbell"></i>
+                <h1>SESSÃO DE TREINO</h1>
+            </div>
+            <a href="/" id="back-button">
+                <i class="fas fa-exchange-alt"></i>
+                Trocar Mestre
+            </a>
+        </div>
+        
+        <div id="chat-box"></div>
+        
+        <form id="chat-form" enctype="multipart/form-data">
+            <div class="input-container">
+                <label for="image-input" class="image-upload-btn">
+                    <i class="fas fa-camera"></i>
+                </label>
+                <input type="file" id="image-input" name="image" accept="image/*" title="Enviar imagem para análise">
+                <input type="text" id="prompt-input" name="prompt" placeholder="Faça sua pergunta ao mestre..." required>
+                <button type="submit">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+    
+    <script>
+        // Animação de partículas no background
+        function createParticles() {
+            const container = document.querySelector('.background-animation');
+            if (!container) return;
+            
+            for (let i = 0; i < 30; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 20 + 's';
+                particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
+                container.appendChild(particle);
+            }
+        }
+        
+        // Lógica para seleção de mestre
+        document.querySelectorAll('.master-card').forEach(card => {
+            card.addEventListener('click', async function() {
+                const masterKey = this.dataset.master;
+                
+                // Adiciona efeito de seleção
+                this.classList.add('selected');
+                
+                try {
+                    const response = await fetch('/select_master', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ master: masterKey })
+                    });
+                    const data = await response.json();
+                    
+                    if (data.status === 'success') {
+                        setTimeout(() => {
+                            document.getElementById('master-selection').style.display = 'none';
+                            document.getElementById('chat-container').style.display = 'flex';
+                            
+                            // Mensagens personalizadas para cada mestre
+                            const welcomeMessages = {
+                                'goku': "🔥 E aí, guerreiro! Pronto pra treinar até não aguentar mais?! Vamos quebrar todos os limites juntos! Kamehameha nos músculos! 💪",
+                                'cariani': "💀 Fala, monstro! Chegou a hora de treinar sério. Sem mimimi, sem desculpa. Disciplina e foco total. Qual sua dúvida?",
+                                'spongebob': "🌊 Estou pronto! Estou pronto! Estou pronto para treinar! O que vamos fazer hoje, amigo? Levantar âncoras? Hahaha!",
+                                'zoro': "🗾 Humpf... Espero que tenha disciplina de verdade. Não aceito fraqueza. Me diga: qual sua meta, recruta?",
+                                'rocklee': "🔥 A CHAMA DA JUVENTUDE ESTÁ QUEIMANDO! VAMOS TREINAR COM TODA NOSSA PAIXÃO! Qual exercício vamos dominar hoje?!",
+                                'levi': "🎯 Tsc... Vamos começar. Seja preciso nas suas perguntas. Não tenho tempo para enrolação. Qual sua dúvida?",
+                                'arnold': "💪 Get to the chopper... I mean, get to the gym! Let's pump it up! Qual músculo vamos massacrar hoje? I'll be back... with gains!",
+                                'batman': "🦇 A noite caiu. A preparação começa agora. Relate seu objetivo. Seja específico.",
+                                'wolverine': "🔪 Chega de conversa, bub. Vamos treinar. O que vai ser? Não me faça esperar."
+                            };
+                            
+                            appendMessage(welcomeMessages[masterKey] || "Vamos começar o treino!", 'assistant-message');
+                        }, 500);
+                    } else {
+                        alert('Erro ao selecionar o mestre: ' + data.message);
+                        this.classList.remove('selected');
+                    }
+                } catch (error) {
+                    alert('Erro de comunicação com o servidor.');
+                    this.classList.remove('selected');
+                }
+            });
+        });
+        
+        // Lógica do formulário de chat
+        document.getElementById('chat-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const form = e.target;
+            const formData = new FormData(form);
+            const promptText = formData.get('prompt');
+            const imageFile = formData.get('image');
+            
+            if (!promptText.trim() && !imageFile.size) return;
+            
+            // Se há uma imagem, mostra ela primeiro
+            if (imageFile && imageFile.size > 0) {
+                const imageUrl = URL.createObjectURL(imageFile);
+                appendImageMessage(imageUrl, 'user-message');
+            }
+            
+            // Se há texto, mostra ele também
+            if (promptText) {
+                appendMessage(promptText, 'user-message');
+            }
+            
+            form.reset();
+            
+            const loadingIndicator = appendMessage('🔥 Mestre está analisando...', 'assistant-message loading');
+            
+            try {
+                const response = await fetch('/chat', { method: 'POST', body: formData });
+                loadingIndicator.remove();
+                const data = await response.json();
+                
+                if (response.ok) {
+                    appendMessage(data.response, 'assistant-message');
+                } else {
+                    throw new Error(data.error || 'Erro desconhecido.');
+                }
+            } catch (error) {
+                loadingIndicator.remove();
+                appendMessage(`❌ Erro: ${error.message}`, 'error-message');
+            }
+        });
+
+        // Função para adicionar mensagem com imagem
+        function appendImageMessage(imageUrl, className) {
+            const chatBox = document.getElementById('chat-box');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${className}`;
+            
+            const img = document.createElement('img');
+            img.src = imageUrl;
+            img.className = 'chat-image';
+            img.alt = 'Imagem enviada';
+            
+            messageDiv.appendChild(img);
+            chatBox.appendChild(messageDiv);
+            chatBox.scrollTop = chatBox.scrollHeight;
+            return messageDiv;
+        }
+
+        function appendMessage(text, className) {
+            const chatBox = document.getElementById('chat-box');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${className}`;
+            const p = document.createElement('p');
+            p.innerHTML = text.replace(/\n/g, '<br>');
+            messageDiv.appendChild(p);
+            chatBox.appendChild(messageDiv);
+            chatBox.scrollTop = chatBox.scrollHeight;
+            return messageDiv;
+        }
+    </script>
+</body>
+</html>
