@@ -16,7 +16,7 @@ O projeto está implantado e pode ser acessado no seguinte endereço:
 
 ➡️ **[Acessar GYM MASTERS](https://trabalho-final-ia-chatbot.onrender.com)**
 
-**Observação:** O projeto está hospedado no plano gratuito do Render. Por isso, ao acessar o link pela primeira vez, pode levar alguns instantes (cerca de 1 a 2 minutos) para o aplicativo "acordar" e ficar disponível. Tenha um pouco de paciência!
+**Observação:** O projeto está hospedado no plano gratuito do Render. Por isso, ao acessar o link pela primeira vez, pode levar alguns instantes (cerca de 1 a 2 minutos) para o aplicativo "acordar" e ficar disponível. Tenha um pouco de paciência! Além disso, caso ocorra algum problema no site, pode ter ocorrido de ter chegado as 50 requisições diárias, então aguarde até algum outro momento que esteja disponível
 
 ---
 
